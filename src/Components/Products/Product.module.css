@@ -1,0 +1,16 @@
+.green{color:#4fa74f}
+.card{transition:all .5s}
+.card:hover{box-shadow:1px 1px 10px #4fa74f}
+.cartbtn
+{
+    transition: transform 0.5s , opacity 0.5s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.card:hover .cartbtn
+{
+    opacity: 1;
+    transform: translateY(0%);
+
+}
